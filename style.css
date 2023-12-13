@@ -1,0 +1,69 @@
+html,
+body {
+    background-color: blueviolet;
+    font-size: 16px;
+    font-family: Arial;
+    width: 100%;
+}
+
+main {
+    display: inline-block;
+    width: 450px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 2px 8px white;
+
+}
+
+.box {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box button {
+    margin-left: 20px;
+    width: 310px;
+    height: 30px;
+    border: none;
+    background-color: aquamarine;
+}
+
+.box button:hover {
+    background-color: lime;
+    cursor: pointer;
+    
+}
+
+.box input {
+    font-size: 1.1rem;
+    width: 280px;
+    text-align: center;
+    color: orangered;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    outline-color: #06c5c5;
+}
+
+#radio {
+    margin-left: 80px;
+    padding-block:1em;
+}
+input[type="checkbox"]{
+    width:60px;
+    height:15px;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+#radio input {
+    position: absolute;
+    left: 63%;
+    background-color: lime;
+}
