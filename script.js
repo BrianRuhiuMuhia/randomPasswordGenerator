@@ -31,11 +31,11 @@ passwordButton[0].addEventListener(
     else if(checkBox[1].checked==false && alphabet.includes(smallLetters)){
         alphabet=alphabet.replace(smallLetters,"")
     }
-    if(checkBox[2].checked==true && !alphabet.includes(alphabet))
+    if(checkBox[2].checked==true && !alphabet.includes(symbols))
     {
         alphabet+=symbols
     }
-    else if(checkBox[2].checked==false && alphabet.includes(alphabet)){
+    else if(checkBox[2].checked==false && alphabet.includes(symbols)){
         alphabet=alphabet.replace(symbols,"")
     }
   inputPassword.value = generatePassword()
